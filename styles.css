@@ -53,14 +53,17 @@
 
 /*  */
 .nextheader img{
-position: absolute;
+position: relative;
 z-index: 1;
-top: 380px;
-left: 150px;
+top: 0px;
+left: 300px;
 
 }
+.nextheader{
+  border: 0;
+}
 .nextgeaderbody{padding: 20px 10px 20px 400px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   text-align:center;
 }
 
